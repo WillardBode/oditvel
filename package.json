@@ -1,0 +1,45 @@
+{
+  "name": "oditvel",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/WillardBode/oditvel.git"
+  },
+  "description": "High performance client for all Decentralized Exchanges built on top of EVM compatible Blockchains",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "/dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build",
+    "test": "jest --forceExit --watchAll",
+    "example": "ts-node -T example.ts"
+  },
+  "author": "JosueDeckow",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^28.1.1",
+    "dotenv": "^16.0.1",
+    "jest": "^28.1.1",
+    "ts-jest": "^28.0.5",
+    "typescript": "^4.7.3"
+  },
+  "dependencies": {
+    "@aymantaybi/dexclient-fetcher": "^1.0.5",
+    "chalk": "^4.1.2",
+    "decimal.js": "^10.3.1",
+    "web3": "^4.0.3",
+    "winston": "^3.8.2"
+  },
+  "keywords": [
+    "id",
+    "a",
+    "crypto",
+    "molestiae",
+    "pancackeswap",
+    "ethereum",
+    "web3"
+  ]
+}
